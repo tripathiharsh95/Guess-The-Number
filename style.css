@@ -1,0 +1,37 @@
+#wrapper{
+    background-color: grey;
+    height: 100vh;
+    text-align: center;
+    padding: 200px;
+    font-size: 20px;
+    color: white;
+}
+
+#guess{
+    display: block;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#subt{
+   display: block;
+    margin-left: 667px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#guessField{
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    width: 200px;
+}
+
+@media only screen and (max-width: 1800px) {
+  #subt{margin-left: 170px;}
+}
